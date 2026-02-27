@@ -1,0 +1,536 @@
+2026-02-27T01:33:00 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T01:33:00 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T01:33:00 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T01:33:00 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T01:33:00 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T01:33:00 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T01:39:15 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T01:39:15 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T01:39:15 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T01:39:15 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T01:39:15 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T01:39:15 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T01:46:23 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T01:46:23 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T01:46:23 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T01:46:23 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T01:46:23 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T01:46:23 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T01:47:52 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T01:47:52 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T01:47:52 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T01:47:52 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T01:47:52 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T01:47:52 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T01:48:01 | DEBUG    | matplotlib.pyplot                   | Loaded backend Agg version v2.2.
+2026-02-27T01:48:33 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T01:48:33 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T01:48:33 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T01:48:33 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T01:48:33 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T01:48:33 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T01:48:39 | DEBUG    | matplotlib.pyplot                   | Loaded backend Agg version v2.2.
+2026-02-27T01:51:47 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T01:51:47 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T01:51:47 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T01:51:47 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T01:51:47 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T01:51:47 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T01:51:53 | DEBUG    | matplotlib.pyplot                   | Loaded backend Agg version v2.2.
+2026-02-27T01:56:33 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T01:56:33 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T01:56:33 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T01:56:33 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T01:56:33 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T01:56:33 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T01:56:47 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T01:56:47 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T01:56:47 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T01:56:47 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T01:56:47 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T01:56:47 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T01:57:10 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T01:57:10 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T01:57:10 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T01:57:10 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T01:57:10 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T01:57:10 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T01:58:05 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T01:58:05 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T01:58:05 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T01:58:05 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T01:58:05 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T01:58:05 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T01:58:29 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T01:58:29 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T01:58:29 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T01:58:29 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T01:58:29 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T01:58:29 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T02:02:09 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T02:02:09 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T02:02:09 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T02:02:09 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T02:02:09 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T02:02:09 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T02:02:19 | WARNING  | yolov5                              | [31m[1mrequirements:[0m protobuf<=3.20.1 not found and is required by YOLOv5, attempting auto-update...
+2026-02-27T02:02:30 | WARNING  | yolov5                              | [31m[1mrequirements:[0m Command 'pip install "protobuf<=3.20.1" ' returned non-zero exit status 1.
+2026-02-27T02:02:30 | WARNING  | yolov5                              | [31m[1mrequirements:[0m ipython not found and is required by YOLOv5, attempting auto-update...
+2026-02-27T02:02:52 | WARNING  | yolov5                              | Collecting ipython
+  Downloading ipython-8.38.0-py3-none-any.whl (831 kB)
+     -------------------------------------- 831.8/831.8 kB 1.3 MB/s eta 0:00:00
+Collecting jedi>=0.16
+  Downloading jedi-0.19.2-py2.py3-none-any.whl (1.6 MB)
+     ---------------------------------------- 1.6/1.6 MB 1.5 MB/s eta 0:00:00
+Collecting prompt_toolkit<3.1.0,>=3.0.41
+  Downloading prompt_toolkit-3.0.52-py3-none-any.whl (391 kB)
+     -------------------------------------- 391.4/391.4 kB 1.4 MB/s eta 0:00:00
+Collecting decorator
+  Downloading decorator-5.2.1-py3-none-any.whl (9.2 kB)
+Collecting pygments>=2.4.0
+  Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+     ---------------------------------------- 1.2/1.2 MB 1.2 MB/s eta 0:00:00
+Requirement already satisfied: colorama in c:\users\face9\desktop\faceid\venv\lib\site-packages (from ipython) (0.4.6)
+Collecting stack_data
+  Downloading stack_data-0.6.3-py3-none-any.whl (24 kB)
+Requirement already satisfied: typing_extensions>=4.6 in c:\users\face9\desktop\faceid\venv\lib\site-packages (from ipython) (4.15.0)
+Collecting traitlets>=5.13.0
+  Downloading traitlets-5.14.3-py3-none-any.whl (85 kB)
+     ---------------------------------------- 85.4/85.4 kB 1.2 MB/s eta 0:00:00
+Collecting matplotlib-inline
+  Downloading matplotlib_inline-0.2.1-py3-none-any.whl (9.5 kB)
+Requirement already satisfied: exceptiongroup in c:\users\face9\desktop\faceid\venv\lib\site-packages (from ipython) (1.3.1)
+Collecting parso<0.9.0,>=0.8.4
+  Downloading parso-0.8.6-py2.py3-none-any.whl (106 kB)
+     -------------------------------------- 106.9/106.9 kB 1.2 MB/s eta 0:00:00
+Requirement already satisfied: wcwidth in c:\users\face9\desktop\faceid\venv\lib\site-packages (from prompt_toolkit<3.1.0,>=3.0.41->ipython) (0.6.0)
+Collecting executing>=1.2.0
+  Downloading executing-2.2.1-py2.py3-none-any.whl (28 kB)
+Collecting pure-eval
+  Downloading pure_eval-0.2.3-py3-none-any.whl (11 kB)
+Collecting asttokens>=2.1.0
+  Downloading asttokens-3.0.1-py3-none-any.whl (27 kB)
+Installing collected packages: pure-eval, traitlets, pygments, prompt_toolkit, parso, executing, decorator, asttokens, stack_data, matplotlib-inline, jedi, ipython
+Successfully installed asttokens-3.0.1 decorator-5.2.1 executing-2.2.1 ipython-8.38.0 jedi-0.19.2 matplotlib-inline-0.2.1 parso-0.8.6 prompt_toolkit-3.0.52 pure-eval-0.2.3 pygments-2.19.2 stack_data-0.6.3 traitlets-5.14.3
+
+2026-02-27T02:02:52 | WARNING  | yolov5                              | [31m[1mrequirements:[0m 1 package updated per C:\Users\face9\.cache\torch\hub\ultralytics_yolov5_v6.2\requirements.txt
+[31m[1mrequirements:[0m  [1mRestart runtime or rerun command for updates to take effect[0m
+
+2026-02-27T02:02:52 | WARNING  | yolov5                              | YOLOv5  2026-2-27 Python-3.10.11 torch-2.10.0+cpu CPU
+
+2026-02-27T02:03:03 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T02:03:03 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T02:03:03 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T02:03:03 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T02:03:03 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T02:03:03 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T02:03:14 | WARNING  | yolov5                              | YOLOv5  2026-2-27 Python-3.10.11 torch-2.10.0+cpu CPU
+
+2026-02-27T12:28:39 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T12:28:39 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T12:28:39 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T12:28:39 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T12:28:39 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T12:28:39 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T12:28:39 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.13s
+2026-02-27T12:28:39 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T12:28:39 | DEBUG    | urllib3.connectionpool              | Starting new HTTPS connection (1): github.com:443
+2026-02-27T12:28:40 | DEBUG    | urllib3.connectionpool              | https://github.com:443 "GET /deepinsight/insightface/releases/download/v0.7/buffalo_l.zip HTTP/1.1" 302 0
+2026-02-27T12:28:40 | DEBUG    | urllib3.connectionpool              | Starting new HTTPS connection (1): release-assets.githubusercontent.com:443
+2026-02-27T12:28:40 | DEBUG    | urllib3.connectionpool              | https://release-assets.githubusercontent.com:443 "GET /github-production-release-asset/102057483/8ae2cf05-2fe7-45cc-addd-2fc11120dcd1?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-02-27T13%3A23%3A37Z&rscd=attachment%3B+filename%3Dbuffalo_l.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-02-27T12%3A23%3A36Z&ske=2026-02-27T13%3A23%3A37Z&sks=b&skv=2018-11-09&sig=G7FtAclvppSwsWBLgh8hmmu4%2FlTZh11o%2FMddNZIWYUc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3MjE5ODkyMCwibmJmIjoxNzcyMTk1MzIwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.3kPUI45aCHq2mK0AYAxQCePAfq-Pji6S_bs47dfPL4s&response-content-disposition=attachment%3B%20filename%3Dbuffalo_l.zip&response-content-type=application%2Foctet-stream HTTP/1.1" 200 288621354
+2026-02-27T12:32:34 | INFO     | ai.recognizer.arcface               | ArcFace ready in 235.40s
+2026-02-27T12:32:34 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T12:32:34 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T13:00:28 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T13:00:35 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T13:00:35 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T13:00:35 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T13:00:35 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T13:00:35 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T13:00:35 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T13:00:35 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.09s
+2026-02-27T13:00:35 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T13:00:37 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.69s
+2026-02-27T13:00:37 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T13:00:37 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T13:00:49 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T13:01:02 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T13:01:02 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T13:01:02 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T13:01:02 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T13:01:02 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T13:01:02 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T13:01:02 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.09s
+2026-02-27T13:01:02 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T13:01:03 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.35s
+2026-02-27T13:01:03 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T13:01:03 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T13:01:04 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T13:01:10 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T13:01:10 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T13:01:10 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T13:01:10 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T13:01:10 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T13:01:10 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T13:01:10 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.08s
+2026-02-27T13:01:10 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T13:01:11 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.01s
+2026-02-27T13:01:11 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T13:01:11 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T13:01:18 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T13:01:18 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T13:01:18 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T13:01:18 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T13:01:18 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T13:01:18 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T13:01:18 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.09s
+2026-02-27T13:01:18 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T13:01:19 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.04s
+2026-02-27T13:01:19 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T13:01:19 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T13:01:19 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T13:02:54 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T13:02:54 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T13:02:54 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T13:02:54 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T13:02:54 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T13:02:54 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T13:02:54 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.08s
+2026-02-27T13:02:54 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T13:02:55 | INFO     | ai.recognizer.arcface               | ArcFace ready in 0.96s
+2026-02-27T13:02:55 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T13:02:55 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T13:21:05 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T13:21:12 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T13:21:12 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T13:21:12 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T13:21:12 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T13:21:12 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T13:21:12 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T13:21:12 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.09s
+2026-02-27T13:21:12 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T13:21:13 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.21s
+2026-02-27T13:21:13 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T13:21:13 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T13:21:13 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T13:21:20 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T13:21:20 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T13:21:20 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T13:21:20 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T13:21:20 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T13:21:20 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T13:21:20 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.09s
+2026-02-27T13:21:20 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T13:21:21 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.09s
+2026-02-27T13:21:21 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T13:21:21 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T13:21:43 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T13:21:51 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T13:21:51 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T13:21:51 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T13:21:51 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T13:21:51 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T13:21:51 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T13:21:51 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.09s
+2026-02-27T13:21:51 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T13:21:52 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.05s
+2026-02-27T13:21:52 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T13:21:52 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T13:26:07 | DEBUG    | storage.repositories                | Saving embedding for student_id=1
+2026-02-27T13:26:07 | ERROR    | storage.database                    | Database session rolled back due to error
+Traceback (most recent call last):
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1815, in _execute_context
+    context = constructor(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\engine\default.py", line 1528, in _init_compiled
+    d_param = {
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\engine\default.py", line 1530, in <dictcomp>
+    flattened_processors[key](compiled_params[key])
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\pgvector\sqlalchemy\vector.py", line 21, in process
+    return Vector._to_db(value, self.dim)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\pgvector\vector.py", line 57, in _to_db
+    raise ValueError('expected %d dimensions, not %d' % (dim, value.dimensions()))
+ValueError: expected 512 dimensions, not 10
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\face9\Desktop\FaceId\storage\database.py", line 58, in get_db
+    yield db
+  File "C:\Users\face9\Desktop\FaceId\storage\repositories.py", line 47, in save
+    db.flush()   # get auto-generated id before close
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4331, in flush
+    self._flush(objects)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4466, in _flush
+    with util.safe_reraise():
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4427, in _flush
+    flush_context.execute()
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1233, in _emit_insert_statements
+    result = connection.execute(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1821, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1815, in _execute_context
+    context = constructor(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\engine\default.py", line 1528, in _init_compiled
+    d_param = {
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\engine\default.py", line 1530, in <dictcomp>
+    flattened_processors[key](compiled_params[key])
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\pgvector\sqlalchemy\vector.py", line 21, in process
+    return Vector._to_db(value, self.dim)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\pgvector\vector.py", line 57, in _to_db
+    raise ValueError('expected %d dimensions, not %d' % (dim, value.dimensions()))
+sqlalchemy.exc.StatementError: (builtins.ValueError) expected 512 dimensions, not 10
+[SQL: INSERT INTO embeddings (student_id, embedding) VALUES (%(student_id)s, %(embedding)s) RETURNING embeddings.id]
+[parameters: [{'student_id': 1, 'embedding': [0.10000000149011612, 0.20000000298023224, 0.30000001192092896, 0.4000000059604645, 0.5, 0.6000000238418579, 0.699999988079071, 0.800000011920929, 0.8999999761581421, 1.0]}]]
+2026-02-27T13:26:07 | ERROR    | main                                | Failed to enrol student_id=1: (builtins.ValueError) expected 512 dimensions, not 10
+[SQL: INSERT INTO embeddings (student_id, embedding) VALUES (%(student_id)s, %(embedding)s) RETURNING embeddings.id]
+[parameters: [{'student_id': 1, 'embedding': [0.10000000149011612, 0.20000000298023224, 0.30000001192092896, 0.4000000059604645, 0.5, 0.6000000238418579, 0.699999988079071, 0.800000011920929, 0.8999999761581421, 1.0]}]]
+2026-02-27T13:29:53 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T13:30:00 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T13:30:00 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T13:30:00 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T13:30:00 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T13:30:00 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T13:30:00 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T13:30:00 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.10s
+2026-02-27T13:30:00 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T13:30:01 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.52s
+2026-02-27T13:30:01 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T13:30:01 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T13:33:54 | DEBUG    | storage.repositories                | Saving embedding for student_id=1
+2026-02-27T13:33:54 | INFO     | storage.repositories                | Saved embedding id=1 for student_id=1
+2026-02-27T13:33:54 | ERROR    | main                                | Failed to enrol student_id=1: Instance <FaceEmbedding at 0x251663659c0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-02-27T13:34:09 | DEBUG    | storage.repositories                | Saving embedding for student_id=1
+2026-02-27T13:34:09 | INFO     | storage.repositories                | Saved embedding id=2 for student_id=1
+2026-02-27T13:34:09 | ERROR    | main                                | Failed to enrol student_id=1: Instance <FaceEmbedding at 0x25166302410> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-02-27T13:44:18 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T15:04:03 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T15:04:03 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T15:04:03 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T15:04:03 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T15:04:03 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T15:04:03 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T15:04:03 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.15s
+2026-02-27T15:04:03 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T15:04:05 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.95s
+2026-02-27T15:04:05 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T15:04:05 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T15:23:59 | DEBUG    | storage.repositories                | Saving embedding for student_id=1
+2026-02-27T15:23:59 | ERROR    | storage.database                    | Database session rolled back due to error
+Traceback (most recent call last):
+  File "C:\Users\face9\Desktop\FaceId\storage\database.py", line 58, in get_db
+    yield db
+  File "C:\Users\face9\Desktop\FaceId\storage\repositories.py", line 39, in save
+    db.flush()  # get auto-generated id
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4331, in flush
+    self._flush(objects)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4466, in _flush
+    with util.safe_reraise():
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4427, in _flush
+    flush_context.execute()
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 76, in save_obj
+    for table, mapper in base_mapper._sorted_tables.items():
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 1235, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\mapper.py", line 4073, in _sorted_tables
+    sorted_ = sql_util.sort_tables(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\sql\ddl.py", line 1318, in sort_tables
+    for (t, fkcs) in sort_tables_and_constraints(
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\sql\ddl.py", line 1388, in sort_tables_and_constraints
+    filtered = filter_fn(fkc)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\sql\ddl.py", line 1308, in _skip_fn
+    if fixed_skip_fn(fk):
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\orm\mapper.py", line 4056, in skip
+    dep = table_to_mapper.get(fk.column.table)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 1123, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\sql\schema.py", line 3199, in column
+    return self._resolve_column()
+  File "C:\Users\face9\Desktop\FaceId\venv\lib\site-packages\sqlalchemy\sql\schema.py", line 3222, in _resolve_column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'face_embedding.student_id' could not find table 'student' with which to generate a foreign key to target column 'student_id'
+2026-02-27T15:23:59 | ERROR    | main                                | Failed to enrol student_id=1: Foreign key associated with column 'face_embedding.student_id' could not find table 'student' with which to generate a foreign key to target column 'student_id'
+2026-02-27T15:27:53 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T15:28:02 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T15:28:02 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T15:28:02 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T15:28:02 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T15:28:02 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T15:28:02 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T15:28:02 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.11s
+2026-02-27T15:28:02 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T15:28:03 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.23s
+2026-02-27T15:28:03 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T15:28:03 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T15:28:10 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T15:28:10 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T15:28:10 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T15:28:10 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T15:28:10 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T15:28:10 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T15:28:10 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.08s
+2026-02-27T15:28:10 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T15:28:11 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.03s
+2026-02-27T15:28:11 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T15:28:11 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T15:28:17 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T15:28:17 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T15:28:17 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T15:28:17 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T15:28:17 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T15:28:17 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T15:28:17 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.09s
+2026-02-27T15:28:17 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T15:28:18 | INFO     | ai.recognizer.arcface               | ArcFace ready in 0.98s
+2026-02-27T15:28:18 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T15:28:18 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T15:28:19 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T15:29:28 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T15:29:28 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T15:29:28 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T15:29:28 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T15:29:28 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T15:29:28 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T15:29:28 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.08s
+2026-02-27T15:29:28 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T15:29:29 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.01s
+2026-02-27T15:29:29 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T15:29:29 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T15:29:40 | DEBUG    | storage.repositories                | Saving embedding for student_id=1
+2026-02-27T15:29:40 | ERROR    | storage.database                    | Database session rolled back due to error
+Traceback (most recent call last):
+  File "C:\Users\face9\Desktop\FaceId\storage\database.py", line 58, in get_db
+    yield db
+  File "C:\Users\face9\Desktop\FaceId\storage\repositories.py", line 41, in save
+    saved_id = record.id  # ← store it before session closes
+AttributeError: 'FaceEmbedding' object has no attribute 'id'
+2026-02-27T15:29:40 | ERROR    | main                                | Failed to enrol student_id=1: 'FaceEmbedding' object has no attribute 'id'
+2026-02-27T15:35:35 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T15:35:42 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T15:35:42 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T15:35:42 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T15:35:42 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T15:35:42 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T15:35:42 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T15:35:42 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.10s
+2026-02-27T15:35:42 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T15:35:43 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.06s
+2026-02-27T15:35:43 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T15:35:43 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T15:35:43 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T15:35:49 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T15:35:49 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T15:35:49 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T15:35:49 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T15:35:49 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T15:35:49 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T15:35:50 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.09s
+2026-02-27T15:35:50 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T15:35:51 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.04s
+2026-02-27T15:35:51 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T15:35:51 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T15:39:32 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T15:45:44 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T15:45:44 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T15:45:44 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T15:45:45 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T15:45:45 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T15:45:45 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T15:45:45 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.20s
+2026-02-27T15:45:45 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T15:45:47 | INFO     | ai.recognizer.arcface               | ArcFace ready in 2.05s
+2026-02-27T15:45:47 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T15:45:47 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T15:45:52 | DEBUG    | storage.repositories                | Saving embedding for student_id=1
+2026-02-27T15:45:52 | INFO     | storage.repositories                | Saved embedding id=2 for student_id=1
+2026-02-27T16:01:43 | DEBUG    | storage.repositories                | get_by_student(student_id=1) returned 1 records
+2026-02-27T16:05:59 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T16:06:15 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T16:06:15 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T16:06:15 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T16:06:15 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T16:06:15 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T16:06:15 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T16:06:15 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.24s
+2026-02-27T16:06:15 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T16:06:19 | INFO     | ai.recognizer.arcface               | ArcFace ready in 3.09s
+2026-02-27T16:06:19 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T16:06:19 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T16:06:19 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T16:06:33 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T16:06:33 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T16:06:33 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T16:06:33 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T16:06:33 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T16:06:33 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T16:06:33 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.21s
+2026-02-27T16:06:33 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T16:06:36 | INFO     | ai.recognizer.arcface               | ArcFace ready in 2.11s
+2026-02-27T16:06:36 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T16:06:36 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T16:07:32 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T16:07:47 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T16:07:47 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T16:07:47 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T16:07:47 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T16:07:47 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T16:07:47 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T16:07:47 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.24s
+2026-02-27T16:07:47 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T16:07:49 | INFO     | ai.recognizer.arcface               | ArcFace ready in 2.25s
+2026-02-27T16:07:49 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T16:07:49 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T16:08:24 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T16:08:40 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T16:08:40 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T16:08:40 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T16:08:40 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T16:08:40 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T16:08:40 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T16:08:41 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.24s
+2026-02-27T16:08:41 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T16:08:43 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.86s
+2026-02-27T16:08:43 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T16:08:43 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T16:18:27 | INFO     | storage.repositories                | Deleted 1 embeddings for student_id=1
+2026-02-27T16:23:35 | INFO     | main                                | FacePass AiService shutting down
+2026-02-27T16:29:51 | INFO     | configs.logging_config              | Logging initialised — level=INFO  file=logs\facepass.log
+2026-02-27T16:29:52 | INFO     | main                                | FacePass AiService starting up …
+2026-02-27T16:29:52 | INFO     | app.websocket                       | Loading FacePipeline …
+2026-02-27T16:29:52 | INFO     | ai.pipeline                         | Initialising FacePipeline …
+2026-02-27T16:29:52 | WARNING  | ai.detector.yolo_face               | CUDA not available — falling back to CPU
+2026-02-27T16:29:52 | INFO     | ai.detector.yolo_face               | Loading YOLO model from 'models\v1\yolo_face.pt' on device 'cpu'
+2026-02-27T16:29:52 | INFO     | ai.detector.yolo_face               | YOLO model loaded in 0.20s
+2026-02-27T16:29:52 | INFO     | ai.recognizer.arcface               | Initialising ArcFace (model=buffalo_l, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+2026-02-27T16:29:54 | INFO     | ai.recognizer.arcface               | ArcFace ready in 1.97s
+2026-02-27T16:29:54 | INFO     | ai.pipeline                         | FacePipeline ready
+2026-02-27T16:29:54 | INFO     | main                                | Startup complete — 0 WebSocket connections active
+2026-02-27T16:29:59 | DEBUG    | storage.repositories                | Saving embedding for student_id=1
+2026-02-27T16:29:59 | INFO     | storage.repositories                | Saved embedding id=3 for student_id=1
+2026-02-27T16:31:55 | DEBUG    | storage.vector_search               | cosine_search → student_id=1 d=0.0000 in 12.5ms
+2026-02-27T16:38:41 | DEBUG    | storage.vector_search               | cosine_search → student_id=1 d=0.0000 in 6.7ms
+2026-02-27T17:13:31 | DEBUG    | storage.vector_search               | cosine_search → student_id=1 d=0.0000 in 9.6ms
+2026-02-27T17:27:16 | DEBUG    | storage.vector_search               | cosine_search → student_id=1 d=0.0000 in 6.8ms
+2026-02-27T17:55:17 | DEBUG    | storage.vector_search               | cosine_search → student_id=1 d=0.0000 in 2.8ms
+2026-02-27T17:59:57 | INFO     | main                                | FacePass AiService shutting down

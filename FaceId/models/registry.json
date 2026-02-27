@@ -1,0 +1,11 @@
+{
+  "default_version": "v1",
+  "models": {
+    "yolo_face": {
+      "v1": "v1/yolo_face.pt"
+    },
+    "arcface": {
+      "v1": "buffalo_l"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+"""FacePass detector sub-package."""

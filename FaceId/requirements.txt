@@ -1,0 +1,30 @@
+# FacePass AiService — Runtime Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+websockets>=12.0
+
+# ── Configuration ─────────────────────────────────────────────────────────────
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# ── AI / Computer Vision ──────────────────────────────────────────────────────
+torch>=2.2.0
+torchvision>=0.17.0
+insightface>=0.7.3
+onnxruntime-gpu>=1.17.0     # use onnxruntime (CPU only) if no GPU
+opencv-python-headless>=4.9.0
+mediapipe>=0.10.0
+scipy>=1.12.0
+numpy>=1.26.0
+
+# ── Database / Storage ────────────────────────────────────────────────────────
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9
+pgvector>=0.2.4
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-multipart>=0.0.9     # for file uploads via FastAPI

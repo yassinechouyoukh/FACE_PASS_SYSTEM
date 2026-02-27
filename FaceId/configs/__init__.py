@@ -1,0 +1,1 @@
+"""FacePass AiService configuration package."""
