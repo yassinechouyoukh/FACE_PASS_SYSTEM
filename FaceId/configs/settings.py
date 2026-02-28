@@ -33,11 +33,11 @@ class Settings(BaseSettings):
     # ── Inference ───────────────────────────────────────────────────────────
     device: str = "cuda"                # "cuda" | "cpu"
     detection_conf_threshold: float = 0.5
-    detection_input_size: int = 640
+    detection_input_size: int = 416
 
     # ── Recognition ─────────────────────────────────────────────────────────
-    embed_interval: int = 15            # frames between re-embeddings
-    sim_threshold: float = 0.45        # cosine distance threshold
+    embed_interval: int = 3            # frames between re-embeddings
+    sim_threshold: float = 0.35        # cosine distance threshold
 
     # ── Behaviour ────────────────────────────────────────────────────────────
     yaw_threshold: float = 20.0        # degrees; beyond = looking away

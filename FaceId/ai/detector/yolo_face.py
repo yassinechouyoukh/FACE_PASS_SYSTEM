@@ -26,17 +26,19 @@ class YOLOFaceDetector:
                     path from ``settings.model_path``.
     """
 
-    def __init__(self, model_path: str | None = None) -> None:
-        path = str(model_path or settings.model_path)
-        device = self._resolve_device(settings.device)
-
-        logger.info("Loading YOLO model from '%s' on device '%s'", path, device)
+    def __init__(self, model_path: str | None = None):
         t0 = time.perf_counter()
 
-        # <-- Replaced torch.hub.load with native YOLO class -->
-        self.model = YOLO(path)
-        self.model.to(device)
-        
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        logger.info(f"🔥 YOLO running on device: {self.device}")
+
+        model_path = model_path or "models/v1/yolo_face.pt"
+
+        self.model = YOLO(model_path)
+
+        # Force model to GPU
+        self.model.to(self.device)
+
         self.conf_threshold = settings.detection_conf_threshold
         self.input_size = settings.detection_input_size
 
@@ -59,9 +61,10 @@ class YOLOFaceDetector:
         try:
             # <-- Updated inference logic to match the new API -->
             results = self.model(
-                frame, 
-                imgsz=self.input_size, 
-                conf=self.conf_threshold, 
+                frame,
+                imgsz=self.input_size,
+                conf=self.conf_threshold,
+                device=self.device,   # 🔥 IMPORTANT
                 verbose=False
             )
             

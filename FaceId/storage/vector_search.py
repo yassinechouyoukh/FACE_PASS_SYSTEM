@@ -119,12 +119,13 @@ def _numpy_fallback_search(vector: np.ndarray) -> SearchResult | None:
     best_sid: int | None = None
 
     for rec in records:
-        emb = np.array(rec.embedding, dtype=np.float32)
+        emb = np.array(rec["embedding"], dtype=np.float32)
         emb = emb / (np.linalg.norm(emb) + 1e-8)
+
         d = float(1.0 - np.dot(query, emb))
         if d < best_d:
             best_d = d
-            best_sid = rec.student_id
+            best_sid = rec["student_id"]
 
     if best_sid is None:
         return None

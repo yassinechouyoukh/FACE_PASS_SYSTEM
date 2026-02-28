@@ -117,17 +117,20 @@ async def ws_handler(ws: WebSocket) -> None:
     loop = asyncio.get_event_loop()
 
     try:
+        processing = False
         while True:
-            # ── Receive frame ──────────────────────────────────────────────
             data = await ws.receive_bytes()
+
+            if processing:
+                continue   # drop frame
+
+            processing = True
 
             frame = cv2.imdecode(np.frombuffer(data, np.uint8), cv2.IMREAD_COLOR)
             if frame is None:
-                logger.warning("session=%s received undecodable frame — skipping", session_id)
-                await ws.send_json({"error": "invalid_frame"})
+                processing = False
                 continue
 
-            # ── Run pipeline off the event loop ────────────────────────────
             results = await loop.run_in_executor(
                 _executor,
                 pipeline.process,
@@ -136,6 +139,7 @@ async def ws_handler(ws: WebSocket) -> None:
             )
 
             await ws.send_json(results)
+            processing = False
 
     except WebSocketDisconnect:
         logger.info("session=%s WebSocket disconnected by client", session_id)

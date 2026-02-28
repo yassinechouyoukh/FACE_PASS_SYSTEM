@@ -1,0 +1,43 @@
+
+services:
+
+  postgres:
+    image: ankane/pgvector
+    container_name: facepass-db
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: facepass
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  spring:
+    build: ./facepass-backend
+    container_name: facepass-backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/facepass
+      SPRING_DATASOURCE_USERNAME: user
+      SPRING_DATASOURCE_PASSWORD: pass
+
+  ai:
+    build: ./FaceId
+    container_name: facepass-ai
+    ports:
+      - "8000:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    runtime: nvidia
+    depends_on:
+      - spring
+
+volumes:
+  postgres_data:

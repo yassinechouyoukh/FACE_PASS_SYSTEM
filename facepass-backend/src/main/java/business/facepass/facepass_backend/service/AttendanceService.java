@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 import business.facepass.facepass_backend.entity.Attendance;
 import business.facepass.facepass_backend.entity.Sessions;
 import business.facepass.facepass_backend.entity.Student;
+import business.facepass.facepass_backend.exception.AttendanceAlreadyMarkedException;
+import business.facepass.facepass_backend.exception.NoActiveSessionException;
+import business.facepass.facepass_backend.exception.StudentNotFoundException;
 import business.facepass.facepass_backend.repository.AttendanceRepository;
 import business.facepass.facepass_backend.repository.SessionsRepository;
 import business.facepass.facepass_backend.repository.StudentRepository;
@@ -31,15 +34,16 @@ public class AttendanceService {
     public Attendance markAttendance(Long studentId) {
 
         Student student = studentRepository.findById(studentId)
-                .orElseThrow(() -> new RuntimeException("Student not found"));
+                .orElseThrow(() -> new StudentNotFoundException("Student Not Found"));
 
         LocalDateTime now = LocalDateTime.now();
+        LocalDate today = LocalDate.now();
+        Sessions session = sessionsRepository
+                .findActiveSession(now, today)
+                .orElseThrow(() -> new NoActiveSessionException("No Active Session"));
 
-        Sessions session = sessionsRepository.findActiveSession(now)
-                .orElseThrow(() -> new RuntimeException("No active session"));
-
-        if (attendanceRepository.findByStudentAndSession(student, session).isPresent()) {
-            throw new RuntimeException("Attendance already marked");
+       if (attendanceRepository.existsByStudentAndSessionAndAttendanceDate(student, session, LocalDate.now())) {
+            throw new AttendanceAlreadyMarkedException("Attendance Already Marked");
         }
 
         Attendance attendance = new Attendance();

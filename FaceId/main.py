@@ -90,19 +90,30 @@ async def info() -> dict[str, str]:
 
 @app.post("/enroll/{student_id}", summary="Enrol a student face embedding")
 async def enroll(student_id: int, embedding: list[float]) -> dict[str, Any]:
-    """Store a 512-D ArcFace embedding for the given student.
 
-    Typically called by the enrolment service after capturing a clean
-    face photo.
-
-    - **student_id**: Integer student identifier.
-    - **embedding**: 512-element float array.
-    """
     if len(embedding) != 512:
         raise HTTPException(status_code=422, detail="Embedding must have exactly 512 elements")
+
     try:
-        saved_id = EmbeddingRepository.save(student_id, np.array(embedding, dtype=np.float32))
-        return {"status": "saved", "id": saved_id, "student_id": student_id}
+        saved_id = EmbeddingRepository.save(
+            student_id,
+            np.array(embedding, dtype=np.float32)
+        )
+
+        # 🔥 Automatically reload pipeline state
+        from app.websocket import get_pipeline
+        pipeline = get_pipeline()
+        pipeline.reload_state()
+
+        logger.info("Embedding saved and pipeline reloaded automatically")
+
+        return {
+            "status": "saved",
+            "id": saved_id,
+            "student_id": student_id,
+            "pipeline_reloaded": True
+        }
+
     except Exception as exc:
         logger.error("Failed to enrol student_id=%d: %s", student_id, exc)
         raise HTTPException(status_code=500, detail="Failed to save embedding") from exc
@@ -176,3 +187,15 @@ async def delete_student(student_id: int) -> dict[str, Any]:
 async def ws(ws: WebSocket) -> None:
     """Real-time face recognition and behaviour analysis stream."""
     await ws_handler(ws)
+
+@app.post("/reload-embeddings")
+async def reload_embeddings():
+    """
+    Reset pipeline runtime state without restarting server.
+    """
+    from app.websocket import get_pipeline
+
+    pipeline = get_pipeline()
+    pipeline.reload_state()
+
+    return {"status": "pipeline reset"}

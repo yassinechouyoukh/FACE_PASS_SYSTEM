@@ -3,6 +3,7 @@ package business.facepass.facepass_backend.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import business.facepass.facepass_backend.DTO.AttendanceResponse;
 import business.facepass.facepass_backend.DTO.RecognitionResponse;
 import business.facepass.facepass_backend.entity.Attendance;
 import business.facepass.facepass_backend.entity.Sessions;
@@ -84,7 +86,7 @@ public class AttendanceController {
     }
 
     @PostMapping("/recognize-and-mark")
-    public String recognizeAndMark(@RequestBody double[] embedding) {
+    public ResponseEntity<?> recognizeAndMark(@RequestBody double[] embedding) {
 
         RecognitionResponse response = pythonAiClient.recognize(embedding);
 
@@ -92,11 +94,19 @@ public class AttendanceController {
 
             Long studentId = response.getStudent_id().longValue();
 
-            attendanceService.markAttendance(studentId);
+            Attendance attendance = attendanceService.markAttendance(studentId);
 
-            return "Attendance marked for student " + studentId;
+            AttendanceResponse attendanceResponse = new AttendanceResponse(
+                    attendance.getStudent().getStudentId(),
+                    attendance.getSession().getSessionId(),
+                    attendance.getStatus(),
+                    attendance.getAttendanceDate(),
+                    "Attendance marked successfully"
+            );
+
+            return ResponseEntity.ok(attendanceResponse);
         }
 
-        return "No match found";
+        return ResponseEntity.status(404).body("No match found");
     }
 }

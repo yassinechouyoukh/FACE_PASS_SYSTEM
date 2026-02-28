@@ -49,16 +49,18 @@ class EmbeddingRepository:
             return saved_id   # ✅ return only the id
 
     @staticmethod
-    def get_all() -> list[FaceEmbedding]:
-        """Return all stored face embeddings.
-
-        Returns:
-            List of :class:`FaceEmbedding` objects (may be empty).
-        """
+    def get_all() -> list[dict]:
         with get_db() as db:
             records = db.query(FaceEmbedding).all()
-        logger.debug("get_all() returned %d embeddings", len(records))
-        return records
+
+            # Convert BEFORE session closes
+            return [
+                {
+                    "student_id": r.student_id,
+                    "embedding": r.embedding,
+                }
+                for r in records
+            ]
 
     @staticmethod
     def get_by_student(student_id: int) -> list[dict]:
