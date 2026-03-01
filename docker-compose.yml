@@ -12,6 +12,7 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./docker/db/init:/docker-entrypoint-initdb.d
 
   spring:
     build: ./facepass-backend
@@ -28,6 +29,8 @@ services:
   ai:
     build: ./FaceId
     container_name: facepass-ai
+    env_file:                  
+      - ./FaceId/.env
     ports:
       - "8000:8000"
     deploy:

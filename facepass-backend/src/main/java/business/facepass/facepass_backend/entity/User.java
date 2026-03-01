@@ -3,7 +3,7 @@ package business.facepass.facepass_backend.entity;
 import jakarta.persistence.*;
 
 @Entity 
-@Table(name = "user")
+@Table(name = "tusers")
 public class User {
     
     @Id 
