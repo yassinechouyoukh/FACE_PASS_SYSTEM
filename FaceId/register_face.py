@@ -6,7 +6,7 @@ from ai.recognizer.arcface import ArcFaceRecognizer
 
 recognizer = ArcFaceRecognizer()
 
-student_id = 4   # 🔥 PUT YOUR REAL STUDENT ID HERE
+student_id = 2   # 🔥 PUT YOUR REAL STUDENT ID HERE
 
 cap = cv2.VideoCapture(0)
 

@@ -5,13 +5,13 @@ services:
     image: ankane/pgvector
     container_name: facepass-db
     environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: pass
-      POSTGRES_DB: facepass
+      POSTGRES_USER: face_admin          # NEW USER
+      POSTGRES_PASSWORD: AdminPass123    # NEW PASS
+      POSTGRES_DB: facepass_db           # NEW DB NAME
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - facepass_new_data:/var/lib/postgresql/data  # NEW VOLUME NAME (Forces clean slate)
       - ./docker/db/init:/docker-entrypoint-initdb.d
 
   spring:
@@ -22,15 +22,22 @@ services:
     depends_on:
       - postgres
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/facepass
-      SPRING_DATASOURCE_USERNAME: user
-      SPRING_DATASOURCE_PASSWORD: pass
+      # Use new credentials here too
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/facepass_db
+      SPRING_DATASOURCE_USERNAME: face_admin
+      SPRING_DATASOURCE_PASSWORD: AdminPass123
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
 
   ai:
     build: ./FaceId
     container_name: facepass-ai
     env_file:                  
       - ./FaceId/.env
+    environment:
+      # THIS IS THE MAGIC TRICK! 
+      # This overrides your .env file so the container always connects correctly,
+      # while your Windows scripts can keep using localhost.
+      - DATABASE_URL=postgresql://face_admin:AdminPass123@postgres:5432/facepass_db
     ports:
       - "8000:8000"
     deploy:
@@ -43,4 +50,4 @@ services:
       - spring
 
 volumes:
-  postgres_data:
+  facepass_new_data: # Matches the new volume name above

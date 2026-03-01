@@ -185,7 +185,7 @@ class FacePipeline:
 
                             if student_id not in self.marked_attendance:
                                 try:
-                                    url = f"http://localhost:8080/attendance/auto/{student_id}"
+                                    url = f"http://spring:8080/attendance/auto/{student_id}"
                                     response = requests.post(url)
 
                                     if response.status_code == 200:
